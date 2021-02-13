@@ -1,0 +1,139 @@
+body {
+    background-color: #0B0021;
+    margin: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.header {
+    width: 80vw;
+}
+
+div.social-media {
+    position: fixed;
+    bottom: 0; right: 2vw;
+    height: 200px;
+    width: 40px;
+    text-align: center;
+}
+
+img.social-media-img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+div.line {
+    height: 150px;
+    width: 0;
+    border: 1px solid #E2B100;
+    margin: 0 auto;
+}
+
+div.container {
+    margin: 0 100px;
+}
+
+div.description h2 {
+    color: #E2B100;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+div.contact {
+    cursor: pointer;
+    margin: 20px 0;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #E2B100;
+    text-align: center;
+}
+
+div.contact a {
+    line-height: 50px;
+    color: #E2B100;
+    text-decoration: none;
+}
+
+div.contact:hover a {
+    transition: all 1s ease;
+    color: #0B0021;
+    font-weight: bold;
+}
+
+div.contact:hover {
+    transition: all 1s ease;
+    background-color: #E2B100;
+}
+
+div.item {
+    margin-top: 200px;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #E2B100;
+}
+
+.item-description {
+    font-weight: 300;
+    font-size: 20px;
+    color: #E2B100;
+}
+
+.item-plus {
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+img.item-image {
+    width: 40vw;
+}
+
+div.links {
+    display: flex;
+    margin-top: 20px;
+}
+
+div.links img.social-media-img {
+    margin-right: 20px;
+}
+
+.col-sm {
+    margin: auto 0;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #070014;
+    text-align: center;
+}
+
+footer h3 {
+    color: #FFFFFF;
+    line-height: 80px;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:600px) {
+    div.container {
+        margin: 0 20px;
+    }
+
+    img.item-image {
+        margin-top: 20px;
+        width: 80vw;
+    }
+
+    div.description {
+        margin-top: 100px;
+    }
+}
